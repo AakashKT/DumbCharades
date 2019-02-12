@@ -26,5 +26,17 @@
 	- Image --> Action (Sentence describing the action)
 - ASSUMPTION : Only human actions (Images with a human present, not arbit. actions)
 - How is this paper different
-	- Previous works required
+	- Previous works required large amount of action datasets, which cannot cover all posible actions, and further is difficult to acquire.
+	- This work exploits both language and visual models to handle unseen actions. 
+	- The language model is built independently, unlike previous effors.
+- Method
+	- Train object recognizer, to localize and recognize object given an image.
+	- Use language model to find a verb corresponding to the noun (object detected in the image)
+	- <b> This disjoint training and inference provides flexibility. </b>
+	- Finally, probability of action a:ij is predicted as
+		- P( a:ij | I ) = (alpha) * P( o:i | I ) + (1-alpha) * P( v:j | o:i, phi)
+		- a:ij, I, o:i, v:j --> Action 'ij' in image 'I', given object 'i' and verb 'j'
+
+# Towards Universal Representation for Unseen Action Recognition
+ 
 
