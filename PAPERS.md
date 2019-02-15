@@ -149,6 +149,14 @@
 # Learning Human Motion Models for Long-term Predictions:
 - Paper: https://arxiv.org/pdf/1704.02827.pdf
 
+# Paired Recurrent Autoencoders for Bidirectional Translation Between Robot Actions and Linguistic Descriptions 
+- Paper : https://ieeexplore.ieee.org/abstract/document/8403309
+
+# Human Motion Modeling using DVGANs
+- Paper : https://arxiv.org/abs/1804.10652
+
+# Conditional Video Generation Using Action-Appearance Captions:
+- Paper: https://arxiv.org/pdf/1812.01261.pdf
 
 
 
@@ -168,6 +176,7 @@
 
 # Generating Single Subject Activity Videos as a Sequence of Actions Using 3D Convolutional Generative Adversarial Networks
 -Paper: https://www.researchgate.net/publication/317416143_Generating_Single_Subject_Activity_Videos_as_a_Sequence_of_Actions_Using_3D_Convolutional_Generative_Adversarial_Networks
+
 
 
 
