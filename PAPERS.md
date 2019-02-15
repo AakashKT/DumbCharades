@@ -3,7 +3,7 @@
 - Code: https://github.com/facebookresearch/QuaterNet
 - Publication: BMVC 2018
 - Group: Facebook
-- Dataset: KIT motion–language dataset
+- Dataset: Human3.6m
 - Network: QuaterNet
 - Importance:  New way to represent the skeleton, GRU, and lstm produce results
 - Description:  Parameterized Skeleton, Predicting velocities, Adding Noise/Dropout, Teacher forcing with probability (P) and using predictions (1-P). Read Paper for all details
